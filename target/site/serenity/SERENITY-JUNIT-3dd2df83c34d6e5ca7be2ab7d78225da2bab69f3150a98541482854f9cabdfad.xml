@@ -1,1 +1,0 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?><testsuite errors="0" failures="0" name="Purchase" skipped="0" tests="2" time="12.41" timestamp="2024-02-01 02:02:23"><testcase name="Validate the purchasing flow on the Swag Labs website."/><testcase name="Validates the purchase flow with only one item."/></testsuite>
