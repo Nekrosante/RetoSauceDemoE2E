@@ -7,13 +7,14 @@ buildscript {
         mavenCentral()
     }
     dependencies {
-        classpath("net.serenity-bdd:serenity-gradle-plugin:2.4.34")
+        classpath("net.serenity-bdd:serenity-gradle-plugin:2.4.4")
     }
 }
 apply plugin: 'java'
 apply plugin: 'eclipse'
 apply plugin: 'idea'
 apply plugin: 'net.serenity-bdd.aggregator'
+version '1.0-SNAPSHOT'
 compileJava.options.encoding = "UTF-8"
 compileTestJava.options.encoding = "UTF-8"
 dependencies {
@@ -22,7 +23,7 @@ dependencies {
     testImplementation('junit:junit:4.13.2')
     testImplementation('org.assertj:assertj-core:3.24.2')
     testImplementation('org.slf4j:slf4j-simple:2.0.5')
-    //testImplementation 'net.serenity-bdd:serenity-ensure:3.6.12'
+    testImplementation 'net.serenity-bdd:serenity-ensure:3.6.12'
     testImplementation("io.github.bonigarcia:webdrivermanager:5.3.3")
 
     implementation 'net.serenity-bdd:serenity-core:4.0.12'
