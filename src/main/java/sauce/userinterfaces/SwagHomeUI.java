@@ -1,7 +1,8 @@
 package sauce.userinterfaces;
 
 import net.serenitybdd.screenplay.targets.Target;
-import net.serenitybdd.annotations.DefaultUrl;
+//import net.serenitybdd.annotations.DefaultUrl;
+import net.thucydides.core.annotations.DefaultUrl;
 import net.thucydides.core.pages.PageObject;
 import org.openqa.selenium.By;
 

@@ -2,7 +2,8 @@ package sauce.tasks;
 
 import net.serenitybdd.screenplay.Actor;
 import net.serenitybdd.screenplay.Task;
-import net.serenitybdd.annotations.Step;
+//import net.serenitybdd.annotations.Step;
+import net.thucydides.core.annotations.Step;
 import net.serenitybdd.screenplay.Tasks;
 import net.serenitybdd.screenplay.actions.Click;
 import net.serenitybdd.screenplay.actions.Enter;
